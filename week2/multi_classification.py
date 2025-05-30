@@ -120,7 +120,7 @@ def predict(model_path, input_vec):
     print(model.state_dict())
     model.eval()
     with torch.no_grad():
-        result = model(torch.FloatTensor(input_vec)) # output is a tensor of the results of predicted Y
+        result = model(torch.FloatTensor(input_vec)) # output is a tensor of predicted Y
         print('predicted result step 1', result)
     for vec, res in zip(input_vec, result):
         class_output = torch.argmax(res).item()
