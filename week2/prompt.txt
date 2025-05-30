@@ -1,0 +1,6 @@
+Project Prompt:
+
+Use Pytorch framework, build a program that solves a 5-class classification problem. 
+The input would be a 5D vector. If the first element is the largest, categorize the output to class 1. If the second is the largest, categorize to class 2. etc. 
+
+Use cross entropy as the loss function. 
