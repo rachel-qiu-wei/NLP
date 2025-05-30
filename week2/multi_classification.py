@@ -17,7 +17,7 @@ class TorchModel(nn.Module):
     def __init__(self, input_size):
         super(TorchModel, self).__init__()
         self.linear = nn.Linear(input_size, 5) ## linear model could reflect any dimension input to any dimension output
-        self.loss = nn.functional.cross_entropy ## use cross entropy as the loss function
+        self.loss = nn.functional.cross_entropy ## use cross entropy as the loss function. softmax is already embedded in cross entropy
 
     def forward(self, x, y=None):
         y_pred = self.linear(x)
