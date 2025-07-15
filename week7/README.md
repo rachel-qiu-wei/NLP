@@ -1,10 +1,12 @@
 # NLP Project
 
+## Overview
 This project leverages a range of Natural Language Processing (NLP) models to analyze customer reviews and classify them based on sensitivity, specifically distinguishing between Positive and Negative sentiment.
 
+## Models supportived
 It supports a variety of neural network architectures and hybrid models for text classification, including:
-    FastText
-    LSTM (Long Short-Term Memory)
+- FastText
+- LSTM (Long Short-Term Memory)
     GRU (Gated Recurrent Unit)
     RNN (Recurrent Neural Network)
     CNN (Convolutional Neural Network)
