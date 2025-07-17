@@ -1,4 +1,4 @@
-# NLP Project
+# Sensitivity Score of Customer Reviews
 
 ## Overview
 This project leverages a range of Natural Language Processing (NLP) models to analyze customer reviews and classify them based on sensitivity, specifically distinguishing between Positive and Negative sentiment.
